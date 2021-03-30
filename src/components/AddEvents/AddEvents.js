@@ -11,7 +11,7 @@ const AddEvents = () => {
         name: data.name,
         imageURL : imageURL
       }
-      const url = `http://localhost:5055/addEvent`;
+      const url = `https://shielded-ocean-37663.herokuapp.com/addEvent`;
       
       fetch (url, {
         method: 'POST',
